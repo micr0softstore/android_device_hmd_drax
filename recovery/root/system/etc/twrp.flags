@@ -30,7 +30,7 @@ odm                 /odm            erofs       ro                              
 /cache              ext4         /dev/block/bootdevice/by-name/cache             flags=display="Cache";backup=1;wipeingui
 /custom             ext4         /dev/block/bootdevice/by-name/custom            flags=display="Custom";backup=1;wipeingui
 /metadata           ext4         /dev/block/bootdevice/by-name/metadata          flags=display="Metadata";backup=1;wipeingui
-/data               ext4         /dev/block/bootdevice/by-name/userdata          flags=display="Data";backup=1;wipeingui
+/data               f2fs         /dev/block/bootdevice/by-name/userdata          flags=display="Data";backup=1;wipeingui
 
 
 # SD Card & USB-OTG Points
