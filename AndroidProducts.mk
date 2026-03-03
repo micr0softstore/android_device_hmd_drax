@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_DRX.mk
+    $(LOCAL_DIR)/twrp_drax.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_DRX-user \
-    omni_DRX-userdebug \
-    omni_DRX-eng
+    twrp_drax-user \
+    twrp_drax-userdebug \
+    twrp_drax-eng
